@@ -1,3 +1,4 @@
+![logo](../imgs/LAMP.jpg)
 # Initial Server Configuration
    ## Upgrading and installing packages
    + A package is Distribution of software and data in an archive.
