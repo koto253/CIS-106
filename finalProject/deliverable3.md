@@ -1,4 +1,18 @@
 ![raspberryPi](../homeWorks/raspberry-pi_logo.jpeg)
+<!-- TOC -->
+
+- [How to install a nginx web server on raspberryPi or Ubuntu.](#how-to-install-a-nginx-web-server-on-raspberrypi-or-ubuntu)
+  - [Step 1: Update Raspberry Pi or Any debian favor](#step-1-update-raspberry-pi-or-any-debian-favor)
+  - [Step 4: Installing Ngnix](#step-4-installing-ngnix)
+  - [step 5: Verifying nginx is running](#step-5-verifying-nginx-is-running)
+  - [step 6: Use your browser to see the default site](#step-6-use-your-browser-to-see-the-default-site)
+  - [step 6: Finding where the default site is locate](#step-6-finding-where-the-default-site-is-locate)
+  - [Deleting the default site and creating a new site](#deleting-the-default-site-and-creating-a-new-site)
+  - [Final step:  Verify the new site is working!](#final-step--verify-the-new-site-is-working)
+    - [Resources](#resources)
+
+<!-- /TOC -->
+
 # How to install a nginx web server on raspberryPi or Ubuntu.
 
 ## Step 1: Update Raspberry Pi or Any debian favor
@@ -19,7 +33,7 @@
 ---
 
 ## Step 4: Installing Ngnix
-NGINX is open source software for web serving, reverse proxying, caching, load balancing, media streaming, and more. It started out as a web server designed for maximum performance and stability. In addition to its HTTP server capabilities, NGINX can also function as a proxy server for email (IMAP, POP3, and SMTP) and a reverse proxy and load balancer for HTTP, TCP, and UDP servers.
+**NGINX** is open source software for web serving, reverse proxying, caching, load balancing, media streaming, and more. It started out as a web server designed for maximum performance and stability. In addition to its HTTP server capabilities, NGINX can also function as a proxy server for email (IMAP, POP3, and SMTP) and a reverse proxy and load balancer for HTTP, TCP, and UDP servers.
 > Run this command to install **nginx**:
 
 ```
@@ -86,6 +100,7 @@ Example:
 ---
 
 ## Final step:  Verify the new site is working!
+It is working.
 ![editPage](../screenShots/editSite.png)
 
 ---

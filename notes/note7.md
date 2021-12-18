@@ -19,3 +19,23 @@
       *  > grep -ve ^$ /etc/login.defs | grep -v ^#
 
 ![loginDefs](imgs7/loginDefs.png)
+
+## Creating a user with useradd
+![useradd](imgs7/userAdd.png)
+* **-md** are the options needed for adding a home directory to the new user.
+* **-s** used for specifying the users login shell.
+
+## Maintaining Passwords
+![passwords](imgs7/passwords.png)
+
+## Deleting User Accounts
+![deleting](imgs7/deleting.png)
+
+## Managing Groups
+![group](imgs7/group.png)
+
+## Delete me
+![delete](imgs7/delete.png)
+
+## Bash Aliases
+![aliases](imgs7/aliases.png)
