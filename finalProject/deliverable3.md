@@ -18,6 +18,14 @@
      + Required "sudo" for elevated privileges.
 
 # MySQL Database Administration
+  + Configure MySQL for development
+    + > /etc/php/7.0 
+    + > type this cmd on windows or mac: sudoedit /etc/mysql/mysql.cnf
+    + To use the new configuration enter this cmd:
+      + > sudo service mysql restart
+  + Manage MySQL permissions
+  + connect with MySQL Workbench
+  + Create databases and users
 
 # Debugging and Performance
 
